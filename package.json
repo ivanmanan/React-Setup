@@ -1,31 +1,21 @@
 {
-  "name": "travel-share",
+  "name": "react-project",
   "version": "1.0.0",
-  "description": "Document your travels and share with others.",
+  "description": "Minimal react setup.",
   "main": "server.js",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server.js",
     "client": "node start-client.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ivanmanan/Travel-Share.git"
-  },
   "author": "Ivan Manan",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ivanmanan/Travel-Share/issues"
-  },
-  "homepage": "https://github.com/ivanmanan/Travel-Share#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "chalk": "^2.4.1",
     "concurrently": "^3.6.1",
-    "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "moment-timezone": "^0.5.21",
     "mysql": "^2.16.0",
     "nodemailer": "^4.6.7"
   }
